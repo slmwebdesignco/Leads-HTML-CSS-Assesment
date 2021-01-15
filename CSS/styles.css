@@ -1,0 +1,777 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+
+/* Columns */
+.column {
+  float: left;
+  padding: 10px;
+  height: 34.5rem;
+  /* height: 552px; */
+}
+
+.left {
+  width: 27.35%;
+  background-image: url("../Assets/heart-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #1B52C0;
+}
+
+.right {
+  width: 27.35%;
+  font-family: Oswald, Bold;
+  background-color: #1B52C0;
+}
+
+.middle {
+  width: 45.29%;
+  /* width: 812px; */
+  background-image: url("../Assets/dog-with-patriotic-glasses.jpg");
+  background-color: #cccccc; 
+  height: 552px; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: 100%;
+  
+}
+
+/* *********************************************************************************************** */
+/* Left Column Styles */
+
+.heart-icon {
+  width: 100%;
+  height: 595px;
+  background: url(heat-icon.svg);
+  background-size: contain;
+  display: block;
+  background-color: #1B52C0;
+}
+
+.left h2 {
+  font-family: Oswald, Bold;
+  color: #ffffff;
+  font-size: 2.5rem;
+  margin-left: 2.1875rem;
+  margin-top: 4.625rem;
+  line-height: 3.125rem;
+}
+
+.comfort {
+  font-family: Oswald, Bold;
+  color: #c2050e;
+  font-size: 1.5625rem;
+  margin-left: 2.1875rem;
+  margin-top: -1.25rem;
+}
+
+
+.service {
+  font-family: Open Sans, Light;
+  font-weight: 300;
+  font-size: 2.0625rem;
+  margin-left: 2.1875rem;
+  color: #fff;
+  line-height: 3.4375rem;
+  margin-top: -0.1875rem;
+}
+
+
+.cta {
+  background-color: #d00000;
+  color: #fff;
+  font-family: Open Sans, Bold;
+  font-size: 1.125rem;
+  width: 195px;
+  height: 48px;
+  margin-left: 35px;
+  border-radius: 5px;
+  cursor: pointer;
+  /* box-shadow: 2px 2px 6px #0e0d0d; */
+  box-shadow: 1px 1px 3px #0e0d0d;
+  border: none;
+  transition:.4s;
+  outline: none;
+}
+
+.cta:hover {
+  transform: translateY(-7%);
+  box-shadow: 2px 2px 6px #0e0d0d;
+  outline: none;
+}
+
+.cta:active {
+  background: 
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+  
+}
+
+.cta span {
+  color: #ffffff;
+  font-family: Open Sans, Bold;
+  font-size: 1.125rem;
+  text-decoration: none;
+  /* line-height: 1.5rem;
+  width: 14.44625rem;
+  height: 1.39125rem; */
+}
+
+/* .cta a {
+  color: #ffffff;
+  font-family: Open Sans, Bold;
+  font-size: 1.125rem;
+  text-decoration: none;
+  line-height: 1.5rem;
+  width: 14.44625rem;
+  height: 1.39125rem;
+  /* margin: 17.48px 5.83px 20.26px 6px; */
+/* } */
+
+/* *********************************************************************************************** */
+  /* Right Column Styles */
+
+/* Heating Button */
+.heat-link {
+  font-family: Oswald, Bold;
+  display: inline-block;
+  background-color: #ffffff;
+  height: 90px;
+  width: 100%;
+  padding-top: 1.5625rem;
+  padding-bottom: 0.3125rem;
+  text-decoration: none;
+  margin-left: 1.25rem;
+  margin-top: 0.9375rem;
+}
+
+.heat {
+  vertical-align: middle;
+  margin-left: 1.25rem;
+}
+
+.heat-link:hover {
+  background-color: #D00000;
+}
+
+.heat-link:hover > span {
+  color: white;
+}
+
+.air-link:hover {
+  background-color: #D00000;
+}
+
+.air-link:hover > span {
+  color: white;
+}
+
+.water-link:hover {
+  background-color: #D00000;
+}
+
+.water-link:hover > span {
+  color: white;
+}
+
+.res-link:hover {
+  background-color: #D00000;
+}
+
+.res-link:hover > span {
+  color: white;
+}
+
+.com-link:hover {
+  background-color: #D00000;
+}
+
+.com-link:hover > span {
+  color: white;
+}
+
+
+
+
+.heat-link:hover path, .heat-link span:hover {
+  fill: #ffffff; 
+  color:#ffffff;
+}
+
+.air-link:hover path, .heat-link span:hover {
+  fill: #ffffff; 
+  color:#ffffff;
+}
+
+.water-link:hover path, .heat-link span:hover {
+  fill: #ffffff; 
+  color:#ffffff;
+}
+
+.res-link:hover path, .heat-link span:hover {
+  fill: #ffffff; 
+  color:#ffffff;
+}
+
+.com-link:hover path, .heat-link span:hover {
+  fill: #ffffff; 
+  color:#ffffff;
+}
+
+
+/* #heat-icon:hover {
+  fill: #fff;
+} */
+
+.heat-link span {
+  vertical-align: middle;
+  color: #1B52C0;
+  margin-left: 2.1875rem;
+  font-size: 1.75rem;
+}
+
+
+/* Air Button */
+.air-link {
+  font-family: Oswald, Bold;
+  display: inline-block;
+  background-color: #ffffff;
+  height: 90px;
+  width: 100%;
+  padding-top: 1.5625rem;
+  padding-bottom: 0.3125rem;
+  text-decoration: none;
+  margin-left: 1.25rem;
+  margin-top: 0.9375rem;
+}
+
+.air-link:hover {
+  background-color: #D00000;
+  color: white;
+}
+
+.air {
+  vertical-align: middle;
+  margin-left: 1.25rem;
+}
+
+.air-link span {
+  vertical-align: middle;
+  color: #1B52C0;
+  margin-left: 2.1875rem;
+  font-size: 1.75rem;
+}
+
+/* Water Button */
+.water-link {
+  font-family: Oswald, Bold;
+  display: inline-block;
+  background-color: #ffffff;
+  height: 90px;
+  width: 100%;
+  padding-top: 1.5625rem;
+  padding-bottom: 0.3125rem;
+  text-decoration: none;
+  margin-left: 1.25rem;
+  margin-top: 0.9375rem;
+}
+
+.water-link:hover {
+  background-color: #D00000;
+  color: white;
+}
+
+.water{
+  vertical-align: middle;
+  margin-left: 1.25rem;
+}
+
+.water-link span {
+  vertical-align: middle;
+  color: #1B52C0;
+  margin-left: 2.1875rem;
+  font-size: 1.75rem;
+}
+
+/* Residential Button */
+.res-link {
+  font-family: Oswald, Bold;
+  display: inline-block;
+  background-color: #ffffff;
+  height: 90px;
+  width: 100%;
+  padding-top: 1.5625rem;
+  padding-bottom: 0.3125rem;
+  text-decoration: none;
+  margin-left: 1.25rem;
+  margin-top: 0.9375rem;
+}
+
+.res-link:hover {
+  background-color: #D00000;
+  color: white;
+}
+
+.res{
+  vertical-align: middle;
+  margin-left: 1.25rem;
+}
+
+.res-link span {
+  vertical-align: middle;
+  color: #1B52C0;
+  margin-left: 2.1875rem;
+  font-size: 1.75rem;
+}
+
+/* Commercial Button */
+.com-link {
+  font-family: Oswald, Bold;
+  display: inline-block;
+  background-color: #ffffff;
+  height: 90px;
+  width: 100%;
+  padding-top: 1.5625rem;
+  padding-bottom: 0.3125rem;
+  text-decoration: none;
+  margin-left: 1.25rem;
+  margin-top: 0.9375rem;
+}
+
+.com-link:hover {
+  background-color: #D00000;
+  color: white;
+}
+
+.com{
+  vertical-align: middle;
+  margin-left: 1.25rem;
+}
+
+.com-link span {
+  vertical-align: middle;
+  color: #1B52C0;
+  margin-left: 2.1875rem;
+  font-size: 1.75rem;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* ***************************************************************************************************** */
+/* Media Queries */
+
+@media screen and (min-width: 375px ) and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+
+  .left {
+    height: 590px;
+    background-image: none;
+  }
+
+  .right {
+    margin-top: -137px;
+  }
+
+
+  .left h2 {
+    font-family: Oswald, Bold;
+    color: #ffffff;
+    font-size: 78px;
+    margin-left: 35px;
+    margin-top: 50px;
+    line-height: 80px;
+  }
+  
+  .comfort {
+    color: #c2050e;
+    font-size: 47px;
+    margin-left: 35px;
+    margin-top: -54px;
+  }
+
+  .service {
+    margin-top: -39px;
+  }
+
+  .cta {
+    width: 350px;
+    height: 65px;
+}
+
+  .cta span {
+    font-size: 1.50rem;
+  }
+}
+
+@media screen and (min-width: 601px ) and (max-width: 799px) {
+  .column {
+    height: 450px;
+    padding: 0;
+  }
+
+  .left {
+    width: 30.35%;
+  }
+
+  .right {
+    width: 30.35%;
+  }
+
+  .middle {
+    width: 39.29%;
+  }
+
+  .left h2 {
+    margin-top: 0.625rem;
+    font-size: 2.2rem;
+    margin-left: 1.10rem;
+  }
+
+  .comfort {
+    font-size: 1.230rem;
+    margin-left: 1.10rem;
+  }
+
+  .service {
+    font-size: 1.5rem;
+    line-height: 2.4375rem;
+    margin-left: 1.10rem;
+  }
+
+  .cta {
+    margin-left: 1.10rem;
+  }
+
+  .heat-link {
+    height: 72px;
+  padding-top: 1.05rem;
+  padding-bottom: 0.3125rem;
+  margin-left: 0.70rem;
+  }
+
+  .air-link {
+    height: 72px;
+  padding-top: 1.05rem;
+  padding-bottom: 0.3125rem;
+  margin-left: 0.70rem;
+  }
+
+  .water-link {
+    height: 72px;
+  padding-top: 1.05rem;
+  padding-bottom: 0.3125rem;
+  margin-left: 0.70rem;
+  }
+
+  .res-link {
+    height: 72px;
+  padding-top: 1.05rem;
+  padding-bottom: 0.3125rem;
+  margin-left: 0.70rem;
+  }
+
+  .com-link {
+    height: 72px;
+  padding-top: 1.05rem;
+  padding-bottom: 0.3125rem;
+  margin-left: 0.70rem;
+  }
+
+  .heat-link span {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+
+  .air-link span {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+
+  .water-link span {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+
+  .res-link span {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+
+  .com-link span {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+}
+
+
+@media screen and (min-width: 800px ) and (max-width: 1010px) {
+    .column {
+      height: 450px;
+      padding: 0;
+    }
+
+    .left {
+      width: 30.35%;
+    }
+
+    .right {
+      width: 30.35%;
+    }
+
+    .middle {
+      width: 39.29%;
+    }
+
+    .left h2 {
+      margin-top: 0.625rem;
+      font-size: 2.2rem;
+      margin-left: 1.10rem;
+    }
+
+    .comfort {
+      font-size: 1.230rem;
+      margin-left: 1.10rem;
+    }
+
+    .service {
+      font-size: 1.5rem;
+      line-height: 2.4375rem;
+      margin-left: 1.10rem;
+    }
+
+    .cta {
+      margin-left: 1.10rem;
+    }
+
+    .heat-link {
+      height: 72px;
+    padding-top: 1.05rem;
+    padding-bottom: 0.3125rem;
+    margin-left: 0.70rem;
+    }
+
+    .air-link {
+      height: 72px;
+    padding-top: 1.05rem;
+    padding-bottom: 0.3125rem;
+    margin-left: 0.70rem;
+    }
+
+    .water-link {
+      height: 72px;
+    padding-top: 1.05rem;
+    padding-bottom: 0.3125rem;
+    margin-left: 0.70rem;
+    }
+
+    .res-link {
+      height: 72px;
+    padding-top: 1.05rem;
+    padding-bottom: 0.3125rem;
+    margin-left: 0.70rem;
+    }
+
+    .com-link {
+      height: 72px;
+    padding-top: 1.05rem;
+    padding-bottom: 0.3125rem;
+    margin-left: 0.70rem;
+    }
+
+    .heat-link span {
+      font-size: 1rem;
+      margin-left: 1rem;
+    }
+
+    .air-link span {
+      font-size: 1rem;
+      margin-left: 1rem;
+    }
+
+    .water-link span {
+      font-size: 1rem;
+      margin-left: 1rem;
+    }
+
+    .res-link span {
+      font-size: 1rem;
+      margin-left: 1rem;
+    }
+
+    .com-link span {
+      font-size: 1rem;
+      margin-left: 1rem;
+    }
+}
+
+                              /* 1010px                  1199px */
+@media screen and (min-width: 1010px) and (max-width: 1199px) {
+
+  .left h2 {
+    margin-top: 3.625rem;
+  }
+
+  .service {
+    line-height: 2.4375rem;
+  }
+
+  .heat-link span {
+    font-size: 1.10rem;
+    margin-left: 1.05rem;
+  }
+
+  .air-link span {
+    font-size: 1.10rem;
+    margin-left: 1.05rem;
+  }
+
+  .water-link span {
+    font-size: 1.10rem;
+    margin-left: 1.05rem;
+  }
+
+  .res-link span {
+    font-size: 1.10rem;
+    margin-left: 1.05rem;
+  }
+
+  .com-link span {
+    font-size: 1.10rem;
+    margin-left: 1.05rem;
+  }
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1410px) {
+
+  .middle {
+    height: 518px;
+  }
+
+  .left h2 {
+    margin-top: 3.625rem;
+  }
+
+  .service {
+    line-height: 2.4375rem;
+  }
+
+  /* Right Column Buttons */
+
+  .heat-link {
+    height: 80px;
+  }
+
+  .air-link {
+    height: 80px;
+  }
+
+  .water-link {
+    height: 80px;
+  }
+
+  .res-link {
+    height: 80px;
+  }
+
+  .com-link {
+    height: 80px;
+  }
+  .heat-link span {
+    margin-left: 1.5rem;
+    font-size: 1.35rem;
+  }
+
+  .air-link span {
+    margin-left: 1.5rem;
+    font-size: 1.35rem;
+  }
+
+  .water-link span {
+    margin-left: 1.5rem;
+    font-size: 1.35rem;
+  }
+
+  .res-link span {
+    margin-left: 1.5rem;
+    font-size: 1.35rem;
+  }
+
+  .com-link span {
+    margin-left: 1.5rem;
+    font-size: 1.35rem;
+  }
+
+
+
+
+/* Root Font Size for REM units */
+@media screen and (min-width: 500px) {
+  html{
+    font-size: 9px;
+  }
+}
+
+@media screen and (min-width: 570px) {
+  html{
+    font-size: 9px;
+  }
+}
+
+@media screen and (min-width: 620px) {
+  html{
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 680px) {
+  html{
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  html{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  html{
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 860px) {
+  html{
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  html{
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  html{
+    font-size: 15px;
+  }
+}
+
+
